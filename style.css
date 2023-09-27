@@ -1,0 +1,1415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: rgb(241, 237, 237);
+	font-family: Poppins;
+	
+}
+
+header {
+	background-color: #42a545;
+    
+}
+
+img{
+	max-width: 100%;
+}
+/* -------------------------Navbar -----------------------------------*/
+
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1%;
+	padding-bottom: 0.5%;
+	padding-left: 7%		;
+	padding-right: 7%;
+	
+}
+.logo a{
+	color: white;
+	flex: 0 0 20%;
+	max-width: 20%;
+	text-decoration: none;
+}
+.logo a h2{
+	font-size: 5vmin;
+	font-family: cursive;
+}
+
+.searchBar1{
+	display: flex;
+	flex: 0 0 50%;
+	max-width: 50%;
+	
+
+}
+.searchBar{
+	width: 100%;
+
+	
+}
+.searchBar input{
+	padding: 10px;
+	width: 100%;
+    border-radius: 2px;
+	
+	
+}
+
+.magGlass{
+    cursor: pointer;
+    background: #717171;
+    border-radius: 2px;
+	font-size: 2.5vmin;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+
+.navWelcome{
+	display: flex;
+	gap: 20px;
+	
+}
+
+ .data1{
+	display: flex;
+ }
+.data1 a 	{
+	color: #fff;
+	text-decoration: none;
+}
+.data1 i{
+	
+	color: #fff;
+	font-size: 3.5vmin;
+	padding-right: 10px;
+	
+}
+.data2{
+	display: flex;
+ }
+.data2 a 	{
+	color: #fff;
+	text-decoration: none;
+}
+.data2 i{
+	
+	color: #fff;
+	font-size: 3.5vmin;
+	padding-right: 10px;
+}
+
+#user{
+	padding-top: 12px;
+
+}
+#bag{
+	padding-top: 12px;
+
+	
+}
+
+
+
+/* ---------------------------navbarPhase ---------------------------------*/
+ .navbarPhase{
+	width: 100%;
+    background: #28a132;
+	border-top: 1px solid rgb(190, 183, 183);
+	padding-left: 7%;
+	padding-right: 7%;
+  
+ }
+ 
+ .navbar1{
+	display: flex;	
+
+ }
+ .department{
+	display: flex;
+	gap: 25px;
+	flex: 0 0 20%;
+	max-width: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-left: 1px solid rgb(190, 183, 183);
+	border-right: 1px solid rgb(190, 183, 183);
+	border-bottom: 1px solid rgb(190, 183, 183);
+	justify-content: center;
+	
+ }
+.department h4{
+	color: white;
+
+}
+.department ul.dropdown{
+	display: none;
+ }
+
+ .navbar1 ul{
+	display: flex;
+	list-style: none;
+	padding-top: 10px;
+	justify-content:center;   
+ }
+ .unorder-list{
+	flex: 0 0 50%;
+	max-width: 50%;
+ }
+ .unorder-list ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	
+ }
+ .recipes{
+	display: flex;
+	flex: 0 0 30%;
+	max-width: 30%;
+	justify-content: flex-end;
+	gap: 20px;
+	padding-top: 10px;
+
+ }
+.recipes .specialOffers {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+}
+#specialOffers1{
+	color: white;
+	padding-left: 2px;
+	text-decoration: none;
+	
+}
+
+
+
+/* -------------------------------------------------Dropdown MEnu --------------------------*/
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background-color: #329b3e;
+	z-index: 2;
+	width: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+	
+  }
+  
+  .dropdown li {
+	display: block;
+
+  }
+  
+  .dropdown li a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+   .dropdown li a:hover {
+	background-color: #468560;
+  }
+ 
+
+/*  --------------------------------------  Autoplay  ----------------------------------   */
+.slider{
+	width: 100%;
+
+	
+}
+.swip img{ 
+	width: 100%;
+	object-fit: cover;	 
+	height: 70vh;
+}
+
+
+
+
+
+/* --------------------------Online Services -------------------------------------*/
+.onlineServices {
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 40px;
+
+}
+.services{
+	display: flex;
+}
+.services ul{
+	padding-top: 20px ;
+	padding-bottom: 20px;
+	border-radius: 3px;
+	width: 100%;
+	display: flex;
+	background-color: white;
+    justify-content: space-around;
+	
+}
+
+.services ul li{
+	position: relative;
+	padding-left: 43px;
+	list-style: none;
+
+}
+.services li i {
+	position: absolute;
+	font-size: 3.5vmin;
+	color: #329b3e;
+	left: 0;
+	top:10px;
+		
+}
+
+.services li a{
+	text-decoration: none;
+	color: rgb(40, 24, 24);
+	font-size: 3vmin;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.services li p{
+	font-size: 2.3vmin;
+}
+
+
+/* -----------------------------------Popular Department -----------------------------------*/
+
+.popular {
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 40px;
+	padding-bottom: 0%;
+	
+}
+
+.popular1 h2{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0px;
+	font-size: 3vmin;
+}
+.popular1 p{
+	padding-bottom: 7px;
+	margin: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.popularDepart{
+	display: flex;
+	justify-content: space-between;
+}
+.popularCategory {
+	position: relative;
+	display: flex;
+
+}
+.popularHead{
+	position: relative;
+	
+}
+.popularHead img{
+	height: 30vh;
+	width: 20.4vw;
+	border-radius: 5px;
+	
+}
+.popularHead p{
+	position: absolute;
+    top: 90px;
+    left: 33px;
+	color: whitesmoke;
+	font-size: 3vmin;
+}
+.popularHead h4{
+	position: absolute;
+	top: 65px;
+    left: 33px;
+	color: whitesmoke;
+	font-size: 3vmin;
+}
+
+.popularImg img{
+	height: 30vh;
+	width: 20.4vw;
+	border-radius: 5px;
+	box-shadow: 0 5px ;
+}
+
+/* ---------------------------------Most Popular  Slider ----------------------------*/
+        
+.mostPopular{
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 40px;
+  }
+  .headingMost h4{
+	font-size: 3vmin;
+	margin: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .headingMost p{
+	padding-bottom: 7px;
+	font-size: 2.5vmin;
+	margin: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .popular-item{
+	background: white;
+	flex-direction: column;
+	overflow: hidden;
+  }
+  .viewer{
+	flex: 0 0 100%;
+	max-width: 100%;
+	display: flex;
+    gap: 10px;
+	padding-left: 30px;
+	padding-top: 20px;
+	
+  }
+  .viewer a{
+	text-decoration: none;
+  }
+  .viewer h5{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	background: white;
+	color: rgb(91, 87, 87);
+	border-radius: 5px;
+	font-size: 2vmin;
+	margin: 0px;
+	border: 1.5px solid rgb(112, 108, 108) ;
+
+  }
+  .viewer h5:hover{
+	background:#14ce11;
+	color: white;
+  }
+  .slide .item-price strike{
+	color: #8b8691;
+  }
+  .popular-item1{
+	display: flex;
+	padding-left: 30px;
+  }
+  .slide {
+	max-width: 100%;
+
+  }
+  
+  .slide img {
+	padding: 0px;
+  }
+  .discount{
+	position: relative;
+	top: 16px;
+    left: 0px;
+}
+  .discount h5{
+	background: rgb(218, 15, 15);
+	padding-right: 32px;
+	padding-left: 5	px;
+    color:white;
+    width: 0;
+  }
+  .item {
+	margin-top: 5px;
+  }
+  .item .item-price{
+	font-size: 2vmin;
+  }
+  .item .star{
+	color: rgb(169, 131, 131);
+  }
+  
+  .slide p {
+	font-size: 2.7vmin;
+  }
+  .item-price {
+	font-size: 2.5vmin;
+  }
+
+  /* --------------------------------Weeks Special ------------------------------*/
+          
+.weekSpecial{
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.headingSpecial h4{
+	
+	font-size: 3vmin;
+	margin: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .headingSpecial p{
+	padding-bottom: 7px;
+	font-size: 2.5vmin;
+	margin: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .popular-item2{
+	display: flex;
+	background: white;
+	padding-top: 20px;
+	padding-left: 30px;
+	overflow: hidden;
+  }
+
+
+  /* ---------------------------------Second LAst Part --------------------------------------*/
+  .secondLast{
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 40px;
+  }
+  .productsImg {
+	display: flex;
+	gap: 1%;
+   
+  }
+  .img1{
+	position: relative;
+  }
+  .img2{
+	position: relative;
+  }
+  .productsImg img{
+	display: flex;
+	width: 100%;
+	border-radius: 2px;
+  }
+  .notes {
+	position: absolute;
+	color: whitesmoke;
+	top: 45%;
+	left:6%;
+	font-size: 2.5vmin;
+  }
+  .notes1 {
+	position: absolute;
+	color: whitesmoke;
+	top: 45%;
+	left: 8%;
+	font-size: 2.5vmin;
+  }
+
+  
+  .img1{
+	flex: 0 0 64%;
+	max-width: 64%;
+  }
+  .img1 img{
+	height: 30vh;
+	
+  }
+  .img2{
+	flex: 0 0 35%;
+	max-width: 35%;
+	
+  }
+  .img2 img{
+	height: 30vh;
+}
+  
+/* -------------------Last Part ------------------- */
+
+
+.swiper-slide {
+	
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+  }
+  .swiperSlide{
+   width: 100%;
+   padding-left: 7%;
+   padding-right: 7%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+  }
+  
+
+/* --------------------- footer --------------------------- */
+.footer-page{
+	max-width: 100%;
+	padding-top: 15px;
+	padding-left: 7%;
+	padding-right: 7%;
+	background-color:  #28a132;
+	
+	
+	
+
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: white;
+	
+}
+.col-md-4{
+     max-width: 100%;
+	 flex: 0 0 20%;
+}
+.container .text-center{
+	justify-content: center;
+}
+.col-md-4 ul li a{
+	text-decoration: none;
+}
+ .text-center p{
+	color: rgb(15, 14, 14);
+
+}
+.text-center{
+	display: flex;
+	justify-content: center;
+}
+.container .icon i{
+	color: white;
+    font-size: 2vmin;
+}
+.icon{
+	padding-left: 10px;
+}
+
+/* --------------------------About Us --------------------------- */
+.about-us{
+	width: 100%;
+	
+	padding-left: 7%;
+	padding-right: 7%;
+}
+.story{
+	padding-top: 40px;
+}
+.mission{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.team{
+	padding-bottom: 40px;
+}
+
+/* ------------------------- COntact US --------------------*/
+.info1{
+	position: relative;
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;	
+	background-color: rgb(241, 235, 235);
+}
+iframe{
+	position: absolute;
+	left: 43%;
+	width: 50%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.get-info{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 26px;
+}
+.get-info p{
+	font-size: 26px;
+	color:#1A9CB7;
+	font-weight: 500;	 ;
+}
+.form1{
+	width: 50%;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.form1 input{
+	font-family: poppins;
+	padding: 8px;
+	margin-bottom: 15px;
+	background: rgb(5,215,146);
+	background: linear-gradient(90deg, rgba(5,215,146,1) 0%, rgba(71,231,82,1) 35%, rgba(8,227,3,1) 100%);
+}
+
+.form1 textarea{
+	font-family: poppins;
+	margin-bottom: 10px;
+	padding: 8px;
+	background: rgb(190,215,5);
+	background: linear-gradient(90deg, rgba(190,215,5,1) 0%, rgba(179,231,71,1) 35%, rgba(147,227,3,1) 100%);
+}
+.form1 button{
+ 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 	margin-left: 55%;
+ 	padding: 8px;
+ 	color: whitesmoke;
+ 	font-size: 12px;
+ 	font-weight: 700;
+ 	background: rgb(41,47,29);
+ 	background: linear-gradient(90deg, rgba(41,47,29,1) 0%, rgba(40,177,86,1) 35%, rgba(5,84,65,1) 100%);
+}
+.learnMore{
+	max-width: 15%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+.tapHere{
+	
+	border-radius: 25px;
+	font-size: 15px;
+	padding: 5px;
+	background: rgb(10,255,141);
+	background: linear-gradient(90deg, rgba(10,255,141,1) 0%, rgba(57,182,178,1) 35%, rgba(11,158,223,1) 100%);
+	color: white;
+}
+.learnAbout{
+	padding: 5px;
+	border-radius: 25px;
+	font-size: 15px;
+	background: rgb(175,255,10);
+	background: linear-gradient(90deg, rgba(175,255,10,1) 0%, rgba(57,182,65,1) 35%, rgba(11,223,171,1) 100%);
+	color: white;
+}
+
+
+/* ----------------------------- Products ----------------------- */
+.toChoose{
+	width: 100%;
+	padding-left: 7%;
+	padding-right: 7%;
+
+}
+.imageOf{
+	max-width: 30%;
+	
+	background: white;
+}
+#myCarousel {
+	max-width: 640px;
+	margin: 0 auto;
+	
+  }
+
+  #myCarousel .f-carousel__slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+  }	
+.categories{
+  display: flex;
+  padding-top: 20px;
+}
+.categories i{
+	padding-top: 8px;
+	padding-left: 10px;
+	font-size: 1.5vmin;
+}
+.categories h2{
+	font-size: 2.5vmin;
+	color:rgb(134, 126, 126);
+	font-size: 14px;
+}
+
+.rows ul{
+	display:flex;
+	gap: 10px;
+}
+.rows ul li {
+	list-style: none;
+}
+.rows ul li a{
+	text-decoration: none;
+	color:#1A9CB7;
+}
+.rows i{
+	padding-left: 10px;
+	font-size: 1.7vmin;
+}
+
+
+.interConnect{
+	display: flex;
+	padding-top: 10px;
+}
+.rating{
+	display: flex;
+	justify-content: space-between	;
+}
+
+.flashSale{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+    max-width: 100%;
+	background: linear-gradient(90deg,#ff8763,#ff330c);
+	border-radius: 20px;
+	justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 10px;
+    margin-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.flash{
+	color: white;
+	font-family: cursive;
+	font-weight: 600;
+}
+.endsDays{
+	color: white;
+	font-size: 14px;
+	padding-top: 2px;
+}
+	
+.headingOption{
+	max-width: 40%;
+	flex: 0 0 40%;
+	background: white;
+	padding-left: 15px;
+	
+}
+.headingOption .bestFruits{
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 15px;
+	color: #212121;
+	
+}
+.startIcon{
+   color: rgb(222, 193, 60);
+   padding-top: 5px;
+   
+}
+.startIcon i{
+	font-size: 2vmin;
+}
+.startIcon a{
+	color:#1A9CB7;
+}
+
+.shareIcon{
+  padding-right: 10px;
+   color: rgb(131, 128, 128);
+}
+.priceOne{
+	padding-top: 30px;
+}
+.promotive{
+	position: relative;
+	width: 100%;
+	padding-top: 20px;
+	display: flex;
+}
+.promotive p{
+	max-width: 35%;
+	flex: 0 0 35%;
+	padding-top: 3px;
+	font-size: 12px;
+	color: white;
+	padding-left: 5px;
+	margin-left: 20px;
+    background: rgb(245, 114, 36);
+	
+}
+.promotive i{
+	position: absolute;
+	left: 52%;
+	top: 24px;
+	color: 	white;
+}
+.quantity{
+	padding-top: 40px;
+}
+.buyItems{
+	width: 100%;
+	padding-top: 20px;
+	display: flex;
+	gap: 2%;
+	
+}
+.buyItems h5{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgb(245, 114, 36);
+	font-size: 2.5vmin;
+	color:  white;
+	text-align: center;
+	
+}
+.buyItems a{
+	text-decoration: none;
+}
+
+  .content{
+	max-width: 26%;
+	flex: 0 0 26%;
+	background: whitesmoke;
+  }
+  .delivery{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	color: #717171;
+  }
+  .delivery h5{
+	font-size: 12px;
+	padding-left: 15px;
+  }
+  .delivery i{
+	padding-right: 15px;
+	font-size: 2vmin;
+  }
+  .content1{
+	padding-bottom: 30px;
+	position: relative;
+	padding-top: 20px;
+	display: flex;
+	font-size: 14px;
+	justify-content: space-between;
+	border-bottom: 1px solid rgb(236, 235, 235);
+  }
+  .content1 i{
+	top: 5px;
+	padding-left: 15px;
+	font-size: 3vmin;
+	color: #717171;
+  }
+  .content1 a{
+	color:#1A9CB7;
+	padding-right: 15px;
+	text-decoration: none;
+  }
+  .content1 .bagmati{
+	position: absolute;
+	left: 12%;
+	top: 15px;
+  }
+  .freeDelivery{
+	position: relative;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+  }
+  .freeDelivery i{
+	padding-left: 15px;
+	font-size: 3vmin;
+	color: #717171;
+	
+  }
+  .freeDelivery .free{
+	padding-right: 15px;
+  }
+  .freeDelivery .freeDp{
+	position: absolute;
+	left: 13%;
+	position: absolute;
+	top: 15px;
+	font-size: 14px;
+  }
+
+ 
+  .freeDelivery .april22{
+	position: absolute;
+	left: 45%;
+	font-size: 12px;
+	top: 18px;
+	font-weight: 100;
+  }
+  .freeDelivery .daysThree{
+	position: absolute;
+	left:13%;
+	top: 35px;
+	font-size: 12px;
+	color: #717171;
+  }
+  .cashDelivery{
+	position: relative;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(236, 235, 235);
+  }
+  .cashDelivery i{
+	padding-left: 15px;
+	font-size: 3vmin;
+	color: #717171;
+  }
+  .cashDelivery p{
+	font-size: 14px;
+	position: absolute;
+	left: 13%;
+  }
+  
+  .serviceFor{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	color: #717171;
+  }
+  .serviceFor h5{
+	font-size: 12px;
+	padding-left: 15px;
+  }
+  .serviceFor i{
+	padding-right: 15px;
+	font-size: 2vmin;
+  }
+  .content2{
+	padding-bottom: 30px;
+	position: relative;
+	padding-top: 20px;
+	display: flex;
+	font-size: 14px;
+	justify-content: space-between;
+	border-bottom: 1px solid rgb(236, 235, 235);
+  }
+  .content2 i{
+	padding-left: 15px;
+	font-size: 3vmin;
+  }
+  .content2 .shraddha{
+	position: absolute;
+	top: 40px;
+	font-size: 15px;
+	padding-left: 15px;
+
+  }
+  .content2 a{
+	text-decoration: none;
+	padding-right: 40px;
+	color:#1A9CB7;
+	font-weight: 500;
+	font-size: 15px;
+  }
+  #rocket{
+	color:#1A9CB7;
+	font-size: 10px;
+	position: absolute;
+	left: 67%;
+  }
+  .sold{
+
+	padding-left: 15px;
+	color: #717171;
+  }
+  .responseRate{
+	
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid rgb(236, 235, 235);
+	border-left: 1px solid rgb(236, 235, 235);
+  }
+  .responseRate .percentage{
+	font-size: 26px;
+  }
+  .responseRate .chatResponse{
+	font-size: 12px;
+	color: #717171;
+	
+  }
+  .visitStore{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+  .visitStore a{
+	text-decoration: none;
+	color: #1A9CB7;
+	font-size: 14px;
+	font-weight: 500;
+  }
+  @media only screen and (max-width: 1420px){
+	.recipes{
+		max-width: 25%;
+		flex:  0 0 25%;
+	}
+	.unorder-list{
+		max-width: 55%;
+		flex:  0 0 55%;
+
+	}
+
+  }
+  @media only screen and (max-width: 1280px){
+	
+	.department h4{
+		font-size: 2.7vmin;
+	}
+	.unorder-list ul li a{
+		font-size: 2.5vmin;
+	}
+
+  }
+  @media only screen and (max-width: 1200px){
+	.department{
+		max-width: 20%;
+		flex:  0 0 20%;
+		gap: 10px;
+	}
+   .department h4{
+	font-size: 3vmin;
+	margin-top: 0px;
+   }
+   .unorder-list ul li a{
+	font-size: 3vmin;
+}
+   #buyPortal {
+	display: none;
+   }
+   .recipes{
+	flex: 0 0 25%;
+    max-width: 25%;
+   }
+   .unorder-list {
+    flex: 0 0 55%;
+    max-width: 55%;
+  }
+}
+  
+  @media only screen and (max-width: 1024px){
+	
+	.department{
+		flex: 0 0 33%;
+	max-width: 33%;
+	gap: 15px;
+	}
+	.department h4{
+		margin-top: -3px;
+		font-size: 2.7vmin	;
+	}
+	.unorder-list{
+		display: none;
+	}
+	.recipes{
+		flex: 0 0 67%;
+		max-width: 67%;
+
+	}
+	#user{
+		font-size: 4vmin;
+	}
+	#bag{
+		font-size: 4vmin;
+	}
+  }
+  
+  
+
+@media only screen and (max-width: 768px){
+	
+	
+	.navbar{
+		flex-wrap: wrap;
+	}
+	
+	.logo{
+		max-width: 40%;
+		flex: 0 0 40%;
+		
+	}
+	.logo h2{
+		font-size: 4.5vmin;
+	}
+
+	.searchBar1 {
+		max-width: 80%;
+		flex: 0 0 80%;
+		order: 3;
+    	padding-top: 10px;
+		padding-left: 0;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	
+	.searchBar1 input{	
+		width: 100%;
+		font-size: 2.7vmin;	
+		
+	}
+	.searchBar1 i{
+		top: 10px;
+		
+	}
+	
+   .popularDepart{
+	  flex-direction: column;
+	  gap: 10px;
+	 
+   }
+   .unorder-list ul{
+	display: none;
+   }
+   
+ 
+  #shopping{
+	padding-top: 5px;
+  }
+   .department{
+	gap: 5px;
+	flex: 0 0 35%;
+	max-width: 35%;
+	font-size: 2.5vmin;
+	
+   }
+   .department h4{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -3px;
+	font-size: 2.5vmin;
+}
+   .recipes{
+	flex: 0 0 55%;
+	max-width: 55%;
+   }
+   .recipes .specialOffers {
+	font-size: 2.5vmin;
+	
+   }
+   
+   .unorder-list{
+	flex: 0 0 5%;
+	max-width: 5%;
+
+   }
+   .popularHead img {
+    height: 25vh;
+    width: 70.4vw;
+	border-radius: 2%;
+   }
+   .popularCategory{
+	max-width: 100%;
+	flex: 0 0 100%;
+	justify-content: center;
+	margin-bottom: 10px;
+	
+   }
+
+   .popular1{
+	text-align: left;
+	gap: 10px;
+   }
+   .popular1 h2{
+	font-size: 3.5vmin;
+   }
+   .popular1 p{
+	font-size: 2.8vmin;
+   }
+
+   .services{
+	max-width: 100%;
+	flex: 0 0 100%;
+	justify-content: center;
+	padding-top: 0px;
+  }
+  
+  .services ul{
+	padding: 16px;
+   flex-direction: column;
+  }
+ 
+  .services ul li i{
+	font-size: 4vmin;
+	margin-top: -5px;
+  }
+  .services ul li p{
+	margin-bottom: 7px;
+	font-size: 2.5vmin;
+  }
+  .services ul li a{
+	font-size: 3.5vmin;
+  }
+  .popularHead img{
+	width: 100%;
+	height: 100%;
+	
+  }
+  .popularHead p{
+	font-size: 5vmin;
+	top: 45%;
+  }
+  .popularHead h4{
+	font-size: 5vmin;
+	top: 35%;
+  }
+   ul.dropdown{
+	min-width: 100px;
+ }
+  #hots {
+	display: none;
+ }
+ .col-md-4 ul li a{
+	color:  white;
+ }
+
+ #aboutUs{
+	max-width: 50%;
+	flex:  0 0 50%;
+	font-size: 14px;
+	
+ }
+ #contactUs{
+	max-width:45%;
+	flex:  0 0 45%;
+	font-size: 14px;
+ }
+ .notes{
+	top: 5%;
+    left: 6.5%;
+ }
+ .notes1{
+	top: 5%;
+    left: 10%;
+ }
+ .hello{
+	display: flex;
+	
+ }
+ .hello i{
+    padding: 9px;
+    padding-top: 12px;
+    padding-left: 10px;
+ }
+ 
+}
+
+
+
+@media only screen and (max-width: 580px){
+	.department{
+		flex: 0 0 40%;
+	max-width: 40%;
+	}
+	.department h4{
+		font-size: 2.5vmin;
+	 }
+}
+
+@media screen and (max-width: 500px){
+	.interConnect{
+		
+		flex-direction: column;
+	}
+	
+
+	
+	.headingOption{
+		width: 100%;
+	}
+	 .department h4{
+		font-size: 2.5vmin;
+	 }
+	
+ iframe{
+	display: none;
+ }
+ #hots1{
+	display: none;
+ }
+ #aboutUs{
+	max-width: 50%;
+	flex:  0 0 50%;
+	font-size: 14px;
+	
+ }
+ #contactUs{
+	max-width:45%;
+	flex:  0 0 45%;
+	font-size: 14px;
+ }
+ .viewer h5{
+	font-size: 1.5vmin;
+ }
+ .text-center p{
+	font-size: 3vmin;
+}
+.icon{
+	margin-top: -5px;
+}
+#welcome{
+	font-size: 2.5vmin;
+}
+#welcomeId{
+	
+	padding-top: 5px;
+
+}
+#user{
+	padding-top: 8px;	
+}
+#bag{
+	padding-top: 8px;
+}
+}
+
+@media  screen and (max-width: 424px){
+	.text-center p{
+		font-size: 2.5vmin;
+	}
+	.icon{
+		margin-top: -10px;
+	}
+	#welcomeId{
+	
+	padding-top: 5px;
+}
+
+	
+}
+
+
+@media only screen and (max-width: 380px){
+	.department{
+		flex: 0 0 45%;
+	max-width: 45%;
+
+	}
+	
+	
+	
+}
+
+
